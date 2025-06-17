@@ -1,0 +1,100 @@
+Arrays
+--------
+Arrays - Array is collection of elements of same data type(Homogenios data).
+We can store multiple values into a single variable.
+
+100 students - Student ID
+100 variables.
+
+int a=10;
+
+Types of arrays
+-------
+1) Single dimensional
+2) Two Dimensional/Double dimensional
+
+
+int a[]=new int[100];    here 5 is array size/ number of values we can store.
+int []a=new int[100];
+
+single dimensional array
+---------
+1) Declare an array
+2) add values into array
+3) Find size of an array
+4) read single value from an array
+5) read multiple values from an array
+
+
+two dimensional
+----------
+
+int a[][]=new int[3][2];
+int [][]a=new int[3][2];
+int []a[]=new int[3][2];
+
+two dimensional array
+---------
+1) Declare an array
+2) add values into array
+3) Find size of an array
+4) read single value from an array
+5) read multiple values from an array
+
+
+Assignments
+----------
+1) Find Sum of Elements in Array
+a={1,2,3,4,5}
+Sum=15
+
+Ref Video: https://www.youtube.com/watch?v=BDvYp3GbfU4
+
+2) Print Even and Odd numbers  from array.
+a={1,2,3,4,5,6}
+Even= 3
+Odd=3
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////
+
+
+How to take input from keyboard/ at run time?
+
+Scanner
+
+Examples
+-----------
+1) Seaching an element in array
+2) Find how many times a number is repeated..
+3) Find number of even's and odd's in array
+4) Sort elements in array
+5) Reverse an array
+
+
+Assingments
+-----------
+1) Sorting elements  using  for loop
+a={50,20,40,10,100}
+after sorting 10 20 40 50 100
+
+Ref Links: 
+https://www.youtube.com/watch?v=cJ2eMUiCFy4
+https://www.youtube.com/watch?v=3PLtvTUOCpM
+
+2) Find Missing in Number in array
+
+a={1,4,5,3}     
+* numbers should be in range
+* should not have duplicates
+* no need of sorting order
+
+logic:  1+2+4+5=12 (sum1)
+        1+2+3+4+5=15 (sum2)
+        sum2-sum1 = missing number
+
+Reference: https://youtu.be/Uywn0YzX8OQ
+
+3) Find largest & lowest number in array
+https://www.youtube.com/watch?v=Jrr0bNcPFgo

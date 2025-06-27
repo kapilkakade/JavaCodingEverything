@@ -16,6 +16,7 @@ public class BroserConditionalMethods {
 // is displayed using webElement
 		WebElement logo = driver.findElement(By.xpath("//img[@alt='nopCommerce demo store']"));
 		System.out.println("Display Logo status: " + logo.isDisplayed());
+		
 // is displayed boolean		
 		boolean logoStatus = driver.findElement(By.xpath("//img[@alt='nopCommerce demo store']")).isDisplayed();
 		System.out.println("Display logo status : " + logoStatus);

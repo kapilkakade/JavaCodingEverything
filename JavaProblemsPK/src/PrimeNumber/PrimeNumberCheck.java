@@ -43,7 +43,7 @@ public class PrimeNumberCheck {
 //		}
 		
 		
-		checkPrime(3);
+		checkPrime(4);
 		
 		
 		
